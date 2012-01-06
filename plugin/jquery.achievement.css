@@ -1,0 +1,49 @@
+/*
+ *  Achievement
+ *
+ *  Copyright (c) 2010 Knewton
+ *  Dual licensed under:
+ *      MIT: http://www.opensource.org/licenses/mit-license.php
+ *      GPLv3: http://www.opensource.org/licenses/gpl-3.0.html
+ */
+/* Achievement
+----------------------------------*/
+#achievement-pane {
+	width: 704px;
+	position: absolute;
+	top: 181px;
+	left: 50%;
+	margin-left: -350px;
+	z-index: 5000;
+	background: url(images/achievement-background-trans.png) repeat-y;
+	display: none;
+}
+
+.achievement-backdrop {
+	width: 704px;
+	opacity: 0.9;
+	filter: Alpha(Opacity=90);
+	z-index: 50;
+}
+
+#achievement-header {
+	background: url(images/achievement-header.png) no-repeat;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	margin-top: -40px;
+}
+
+#achievement-footer {
+	background: url(images/achievement-footer.png) no-repeat;
+	height: 44px;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -44px;
+}
+
+#achievement-content {
+	width: 624px;
+	margin: 2px;
+	padding: 0 38px;
+}
